@@ -1,0 +1,56 @@
+<style>
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    th, td {
+        padding: 8px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+    }
+
+    tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+
+    td.item-1 {
+        background-color: #ffcccc;
+    }
+
+    td.item-2 {
+        background-color: #ccffcc;
+    }
+
+    td.item-3 {
+        background-color: #ccccff;
+    }
+</style>
+
+<table>
+    <tr>
+        <th>Item</th>
+        <th>Color</th>
+    </tr>
+    <tr>
+        <td class="item-1">Item 1</td>
+        <td>Red</td>
+    </tr>
+    <tr>
+        <td class="item-2">Item 2</td>
+        <td>Green</td>
+    </tr>
+    <tr>
+        <td class="item-3">Item 3</td>
+        <td>Blue</td>
+    </tr>
+</table>
+<!-- In the example above, we use CSS to style the table. The table element is given a width of 100% and the border-collapse property is set to collapse to remove any spacing between cells.
+
+The th and td elements are styled with padding, text alignment, and a bottom border. The tr:nth-child(even) selector is used to apply a background color to every other row, creating a zebra stripe effect.
+
+To apply specific background colors to individual cells, we use the td.item-1, td.item-2, and td.item-3 selectors and assign different background colors to each class.
+
+You can modify the background colors and class names to suit your needs. Additionally, you can apply background colors to entire rows by targeting the tr elements with specific classes.
+
+Remember to use the appropriate class names and selectors to target the desired cells or rows. -->

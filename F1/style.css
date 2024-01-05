@@ -1,0 +1,23 @@
+
+
+.tbl, th,td {
+    border: 2px solid blue;
+}
+.tbl td{
+    background: lightblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: end;
+    text-align: left;
+    text-align: right;
+    text-wrap: balance;
+
+    
+}
+.tbl tr:hover{
+    font-size: large;
+}
+
+.tbl th:hover{
+    font-size: xx-large;
+    background-color: tomato;
+}

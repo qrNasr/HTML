@@ -1,0 +1,31 @@
+.main{
+    color: blue;
+}
+/* how to select parent and child */
+.main>p{
+    background-color: lightblue;
+    color: darkblue;
+    text-transform: capitalize;
+    text-transform: uppercase;
+    text-transform: lowercase;
+    text-transform: none;
+
+}
+/* select sibling element from certain element */
+.div3>ol,p{
+    background-color: blueviolet;
+}
+
+ol{
+    /* select list style type */
+    list-style:armenian;
+    list-style: circle;
+    list-style-type: decimal;
+    list-style-type: disc;
+    list-style-type:georgian;
+    list-style-type: lower-alpha;
+    list-style-type: lower-greek;
+    list-style-type: lower-latin;
+    list-style: lower-roman;
+
+}

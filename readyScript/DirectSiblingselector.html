@@ -1,0 +1,26 @@
+<!--
+
+One way to select direct siblings in CSS is by using the ~ general sibling selector. This selector matches any sibling element that comes after the first element, regardless of their positions.
+
+Here's an example of how you can use the general sibling selector to target direct siblings: -->
+
+<style>
+    p ~ p {
+        color: blue;
+    }
+</style>
+
+<div>
+    <p>I'm a paragraph</p>
+    <p>I'm a direct sibling of the previous paragraph and will be selected</p>
+    <h2>Monkey hair</h2>
+    <p>I'm not a direct sibling and will not be selected</p>
+</div>
+
+<!-- 
+In the example above, the CSS selector p ~ p selects any <p> element that is a direct sibling of another <p> element.
+
+Keep in mind that the general sibling selector selects all siblings that come after the first element, not just the immediate sibling.
+
+If you specifically need to select only the immediate sibling, you may need to use JavaScript or a CSS preprocessor like Sass, which provides additional functionality for selecting direct siblings.
+ -->
