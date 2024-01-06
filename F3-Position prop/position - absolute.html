@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>User Profile Photo</title>
+  <style>
+    .container {
+      position: relative;
+      width: 200px;
+      height: 200px;
+    }
+    
+    .profile-photo {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      background-image: url('profile-photo.jpg');
+      background-size: cover;
+      background-position: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="profile-photo"></div>
+  </div>
+</body>
+</html>
+
+<!-- In this example, we have a <div> element with the class "container" that acts as a container for the user profile photo. The container has a relative position to act as a reference for the absolutely positioned child element.
+
+Inside the container, there's another <div> element with the class "profile-photo" that represents the user profile photo. This element has an absolute position and is centered vertically and horizontally using the top: 50%, left: 50%, and transform: translate(-50%, -50%) properties.
+
+The profile photo element has a fixed width and height, a border-radius of 50% to create a circular shape, and a background image specified using the background-image property. Adjust the URL of the image to the desired profile photo.
+
+The background-size: cover property ensures that the image covers the entire element, and background-position: center centers the image within the element. -->

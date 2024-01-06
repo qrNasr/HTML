@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Position Attributes</title>
+  <style>
+    #container {
+      width: 600px;
+      height: 400px;
+      background-color: #f2f2f2;
+      position: relative;
+    }
+    
+    #element1 {
+      width: 100px;
+      height: 100px;
+      background-color: red;
+      position: absolute;
+      top: 20px;
+      left: 20px;
+    }
+    
+    #element2 {
+      width: 150px;
+      height: 150px;
+      background-color: blue;
+      position: fixed;
+      top: 50px;
+      right: 50px;
+    }
+    
+    #element3 {
+      width: 200px;
+      height: 200px;
+      background-color: green;
+      position: relative;
+      top: 50px;
+      left: 50px;
+    }
+    
+    #element4 {
+      width: 250px;
+      height: 250px;
+      background-color: yellow;
+      position: sticky;
+      top: 100px;
+      right: 100px;
+    }
+  </style>
+</head>
+<body>
+  <div id="container">
+    <div id="element1"></div>
+    <div id="element2"></div>
+    <div id="element3"></div>
+    <div id="element4"></div>
+  </div>
+</body>
+</html>
+<!-- In this example, we have a container with the ID "container" that has a fixed width and height and a background color. Inside the container, there are four elements with different position attributes:
+
+    element1: This element has a red background color and is positioned absolutely with a top and left offset of 20 pixels.
+    element2: This element has a blue background color and is positioned fixed to the top right corner of the viewport with a top and right offset of 50 pixels.
+    element3: This element has a green background color and is positioned relatively with a top and left offset of 50 pixels. The position is relative to its original position in the document flow.
+    element4: This element has a yellow background color and is positioned sticky with a top and right offset of 100 pixels. It remains in the normal flow until it reaches a specified scroll position, after which it becomes fixed.
+ -->

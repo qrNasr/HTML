@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Fixed Position Example</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+    
+    header {
+      background-color: #333333;
+      color: #ffffff;
+      padding: 20px;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+    }
+    
+    main {
+      padding: 20px;
+      margin-top: 60px;
+    }
+    
+    footer {
+      background-color: #333333;
+      color: #ffffff;
+      padding: 20px;
+      /* position, bottom, left and width are to be made together */
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Fixed Header</h1>
+  </header>
+  
+  <main>
+    <h2>Main Content</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam luctus nunc a ex efficitur, sit amet elementum magna dapibus. Donec sagittis ligula sit amet justo tristique, vel ullamcorper lacus mattis.</p>
+  </main>
+  
+  <footer>
+    <p>Fixed Footer</p>
+  </footer>
+</body>
+</html>
+
+<!-- In this example, we have a fixed header at the top of the page and a fixed footer at the bottom of the page using the position: fixed property. The header and footer are positioned relative to the viewport and will remain fixed in their respective positions even when the page is scrolled. The top, bottom, left, and width properties are used to control the positioning and size of the fixed elements.
+
+The main section has a margin-top value to create space below the fixed header. -->

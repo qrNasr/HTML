@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Relative Position Example</title>
+  <style>
+    .container {
+      width: 400px;
+      height: 200px;
+      background-color: #f2f2f2;
+      position: relative;
+    }
+    
+    .box {
+      width: 100px;
+      height: 100px;
+      background-color: #333333;
+      position: relative;
+      top: 20px;
+      left: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="box"></div>
+  </div>
+</body>
+</html>
+<!-- In this example, we have a <div> element with the class "container" that acts as a container for other elements. The container has a fixed width and height and a background color. Inside the container, there's another <div> element with the class "box" that represents a box inside the container.
+
+The "box" element has a fixed width and height, a background color, and is positioned relative to its normal position inside the container. The top and left properties are used to offset the element 20 pixels from the top and left edges of its normal position.
+
+By using position: relative, the box is positioned relative to its original position in the document flow. This means that it still occupies space in the document, and other elements will be positioned as if the box were still in its original position. -->
